@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy.stats import skew, kurtosis, mode
 
 file_path = 'descreptive_statistics_01_IoT.xlsx'
 df = pd.read_excel(file_path)
@@ -42,4 +41,5 @@ for i, var in enumerate(variables, 1):
     plt.title(f'Box plot of {var}')
 
 plt.tight_layout()
+plt.savefig('box_plots.png')
 plt.show()
