@@ -57,3 +57,14 @@ The entire analysis will be implemented in Python using pandas, numpy, matplotli
 - **Kurtosis**: Measure of the "tailedness" of the data distribution.
 
 This analysis provides a comprehensive understanding of the data's distribution and variability, helping to identify patterns and insights.
+
+## Further Research
+To expand on this analysis, further research will be conducted in JupyterLab using machine learning techniques. This will involve:
+
+* Predictive Modeling: Using the dataset to build models that can predict occupancy status based on environmental measurements.
+* Clustering Analysis: Grouping similar data points to identify patterns and anomalies.
+* Feature Engineering: Creating new features to improve model performance.
+* Model Evaluation: Assessing the accuracy and robustness of different machine learning models.
+* Time Series Analysis: Utilizing time series methods to analyze data in the context of their variability over time, identifying trends, seasonality, and other significant temporal patterns.
+  
+By leveraging machine learning, I can uncover deeper insights and build predictive systems that enhance my understanding and management of environmental conditions.
